@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+.black{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    width: 343px;
+    text-align: center;
+    background-color: blueviolet;
+}
+.black:hover{
+    background-color: black;
+    animation-name: negro;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes negro {
+    0%{background-color: blueviolet;}
+    16%{background-color: red;}
+    32%{background-color: yellow;}
+    48%{background-color: rgb(0, 255, 0);}
+    64%{background-color: rgb(0, 255, 234);}
+    80%{background-color: blue;}
+    96%{background-color: rgb(255, 0, 200);}
+    100%{background-color: blueviolet;}
+}
+a{
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;    
+    background-color: rgb(105, 98, 88);
+    justify-content: center;
+}
+.pedrito{
+    display: flex;
+    flex-direction: column;
+    background: rgb(221,120,246);
+    background: radial-gradient(circle, rgba(221,120,246,1) 20%, rgba(188,255,250,1) 50%, rgba(158,203,255,1) 70%);
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+.image-transparente{
+    height: 30vh;
+    width: 200vh;
+    background-image: linear-gradient(rgba(212, 0, 255, 0.459), rgba(0, 255, 213, 0.514)) ,url(img/fondo/descarga\ \(1\).jpg);
+    width: 90vw;
+    margin: 0px auto;
+}
+h3{
+    color: black;
+}
+#tonotos{
+    height: 90vh;
+    width: 90vw;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.623) 0%, rgba(205, 50, 50, 0.623) 50%, rgba(0, 0, 0, 0.623) 100%), url(img/fondo/descarga\ \(1\).jpg);
+    background-size: 1230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+.DOOM{
+    color: gold;
+    display: flex;
+    justify-content: center;
+    padding: px;
+}
+.Doom{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding: px;
+}
+.doom{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    margin: 0px auto;
+    background: rgb(68,0,152);
+    background: radial-gradient(circle, rgb(164, 90, 255) 34%, rgba(0,232,255,1) 89%);
+    padding: 0px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Nerko One", cursive;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+ul{
+    background: rgb(75,180,58);
+    background: linear-gradient(90deg, rgb(17, 0, 255) 0%, rgb(195, 0, 255) 50%, rgb(255, 0, 0) 100%);
+}
+.blue{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    width: 343px;
+    text-align: center;
+    background-color: blue;
+}
+.blue:hover{
+    background-color: black;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-name: azul;
+}
+.red:hover{
+    background-color: black;
+    animation-name: rojo;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+.red{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    width: 343px;
+    background-color: red;
+    text-align: center;
+}
+@keyframes azul {
+    0%{background-color: blue;}
+    25%{background-color: rgb(195, 0, 255);}
+    50%{background-color: rgb(255, 0, 191);}
+    75%{background-color: rgb(255, 0, 98);}
+    80%{background-color: rgb(255, 0, 0);}
+    100%{background-color: blue;}
+}
+@keyframes rojo {
+    0%{background-color: red;}
+    25%{background-color: rgb(255, 102, 0);}
+    50%{background-color: rgb(255, 149, 0);}
+    75%{background-color: yellow;}
+    100%{background-color: red;}
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    background: rgb(75,180,58);
+    background: linear-gradient(90deg, rgba(75,180,58,1) 0%, rgba(29,253,247,1) 50%, rgba(69,69,252,1) 100%);
+    grid-template-rows: auto;
+    column-gap: 7px;
+    row-gap: 5px;
+    width: 75%;
+    margin: 0 auto;
+}
+.imagenes_img{
+    width: 100%;
+}
+.corre{
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.contenedor{
+    width: 90%;
+    margin: 25px auto;
+    display:grid;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-template-rows: min-content;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.contenedor div{
+    padding: 20px;
+}
+.griditem1{
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.451) 28%, rgba(174, 0, 255, 0.451) 75%), url(img/descarga\ \(4\).jpg);
+}
+.griditem2{
+    background: linear-gradient(90deg, rgba(255, 0, 170, 0.451) 28%, rgba(255, 0, 221, 0.451) 75%), url(img/kirby.png);
+}
+.griditem3{
+    background: linear-gradient(90deg, rgba(255, 230, 0, 0.692) 28%, rgba(255, 136, 0, 0.451) 75%), url(img/Kratos.jpg);
+}
+.griditem4{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.671) 28%, rgba(99, 99, 99, 0.61) 50%, rgba(136, 114, 114, 0.623) 75%), url(img/silencio\ gil.jpg);
+    grid-column: 1/3;
+}
+.griditem5{
+    background: linear-gradient(90deg, rgba(62, 116, 0, 0.671) 28%, rgba(124, 123, 43, 0.61) 50%, rgba(223, 8, 8, 0.623) 75%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROGyQOn-CLf7ZgMu9AzQm6tN_Fwz_hyR_s4g&s);
+}
+body{
+    background: rgb(154,205,50);
+    background: linear-gradient(0deg, rgba(154,205,50,1) 30%, rgba(255,255,255,1) 50%, rgba(255,205,0,1) 70%);
+}
+.contenedor2{
+    width: 90%;
+    margin: 25px auto;
+    display:grid;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-template-rows: min-content;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.malo1{
+    background: linear-gradient(rgb(111, 255, 159), rgb(107, 107, 228), rgb(17, 0, 255));
+    padding: 3px;
+}
+.malo2{
+    background: linear-gradient(yellow, orange, red);
+    padding: 3px;
+}
+.malo3{
+    background: linear-gradient(grey, red, black);
+    padding: 3px;
+}
+.malo4{
+    background: linear-gradient(rgb(22, 131, 0), yellow, orange);
+    padding: 3px;
+}
+.REC{
+    padding: 20px;
+}
+.papa{
+    color: rgb(0, 0, 0);
+}
+.dino{
+    background-image: linear-gradient(orange, rgb(47, 148, 0));
+    background-image: radial-gradient(orange, rgb(47, 148, 0));
+    display: flex;
+    justify-content: center;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+.cl{
+    display: flex;
+    justify-content: center;
+}
+.consola{
+    display: grid;
+    grid-template: minmax(300px, 1fr);
+}
+.consola :nth-child(2), .consola :nth-child(3){
+    padding-left: 15px;
+}

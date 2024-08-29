@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    padding: 30px;
+    background: linear-gradient(90deg, rgba(0, 255, 213, 0.77) 0%, rgba(0, 0, 0, 0.77) 50%, rgba(174, 0, 255, 0.77) 100%);
+    position: fixed;
+}
+a{
+    display: inline-block;
+}
+h3{
+    color: white;
+}
+.cuadro{
+    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.77) 0%, rgba(73, 73, 73, 0.77) 50%, rgba(255, 255, 255, 0.77) 100%), url(https://th.bing.com/th/id/OIP.SAuQsKunUsO8MCw53VPVLAHaHa?w=173&h=180&c=7&r=0&o=5&pid=1.7);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px 6px black;
+}
