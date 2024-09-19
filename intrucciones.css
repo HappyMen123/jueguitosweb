@@ -1,6 +1,6 @@
 body{
-    background: rgb(135,135,135);
-    background: linear-gradient(90deg, rgba(135,135,135,1) 0%, rgba(255,255,255,0.9) 20%, rgba(0,0,0,0.804359243697479) 30%, rgba(255,255,255,0.8) 40%, rgba(0,0,0,0.8) 50%, rgba(255,255,255,0.8) 60%, rgba(0,0,0,0.8) 70%, rgba(255,255,255,0.9) 80%, rgba(135,135,135,1) 100%), url(img/fondo/Dinosaurs-Game.gif);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.66) 0%, rgba(255,254,254,0.6643032212885154) 39%, rgba(0,0,0,1) 100%);
 }
 a{
     display: inline-block;
